@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twatter</title>
+
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Oswald" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="">
+
+		body{ 
+			font-family: 'Raleway', sans-serif;
+		}
+		h1 {
+			font-size: 37px;
+		}
+		#nav {
+			background-image: url(https://vid.alarabiya.net/images/2017/03/14/35be08d5-c5c1-4fa0-bbb6-66dcbf393095/35be08d5-c5c1-4fa0-bbb6-66dcbf393095.jpg);
+			background-size: 20%;
+
+		}
+		#left-sidebar {
+			background-color: #d4e5f9;
+		}
+		#right-sidebar {
+			background-color: #d4e5f9;
+		}
+		#center {
+			background-color: white;
+		}
+		#footer {
+			background-color: #5079a8;
+			font-size: 15px;
+			padding-left: 170px;
+			padding-top: 10px;
+		}
+		#twtimg2 {
+			zoom: 15%;
+		}
+		#profilediv {
+			margin-left: 20px;
+			margin-right: 20px;
+			border: solid black 1px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+
+		}
+		#twtimg3 {
+			width: 1000px;
+		}
+		#profileimg {
+			width: 800px;
+			padding-top: 100px;
+		}
+		#woofer {
+			font-family: 'Bowlby One SC', cursive;
+			font-size: 70px;
+			color: #1c4689;
+			padding-left: 30px;
+			padding-top: 10px;
+		}
+		}
+		#navbar-list {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		#mini-woofer {
+			font-family: 'Bowlby One SC', cursive;
+			padding-left: 0px
+		}
+		#nav2 {
+
+		}
+		#tff {
+			padding-left: 30px;
+			padding-right: 0px;
+			font-size: 10px;
+		}
+		#tffvalues {
+			padding-left: 30px;
+			font-size: 27px;
+		}
+		#recpic1 {
+
+		}
+		#wolfpic {
+			height: 500px;
+		}
+		#reccomended-users {
+			padding-left: 30px;
+			padding-top: 20px;
+
+		}
+		#rsideborder {
+			border: solid black 1px;
+			font-size: 15px;
+			margin-top: 15px;
+		}
+		#goldpic {
+			height: 650px;
+			padding-left: 130px;
+		}
+		#shibapic {
+			height: 620px;
+			padding-left: 50px;
+		}
+		#fb1 {
+			padding-top: 10px;
+		}
+		#sss {
+			padding-top: 10px;
+			padding-right: 20px;
+		}
+		#adpic {
+			height: 300px;
+			margin: auto;
+			display: block;
+			padding-bottom: 20px;
+		}
+		#addiv {
+			
+		}
+		#twtimg4 {
+			height: 600px;
+		}
+		#twtimg5 {
+			height: 600px;
+			padding-top: 50px;
+		}
+		#adpic2 {
+			height: 350px;
+			padding-top: 100px;
+			margin: auto;
+			display: block;
+		}
+		.recrow {
+			padding-bottom: 30px;
+			padding-left: 5px;
+		}
+		.righthandles {
+			font-size: 13px;
+			padding-top: 12px;
+		}
+		.nav-buttons {
+			display: inline-block;
+			font-size: 25px;
+			color: #1c4689;
+			padding-left: 0px;
+			padding-right: 50px;
+			padding-top: 5px;
+		}
+
+		.tweettext {
+			font-size: 100%;
+		}
+		.tweettext2 {
+			font-size: 27px;
+		}
+		.post {
+			margin: 5px;
+			margin-bottom: 20px;
+			border: solid black 1px;
+			border-radius: 5px;
+			padding-bottom: 30px;
+			padding-top: 20px;
+		}
+		.tweetimgs {
+			
+			border-radius: 30%;
+			zoom: 10%;
+			margin: auto;
+			display: block;
+
+		}
+		.profiletext {
+			font-size: 20px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" id="nav">
+			<p id="woofer">Woofer</p>
+		</div>
+		<div class="row" id="nav2">
+			<ul id="navbar-list">
+				<li class="nav-buttons"><i class="far fa-paper-plane"></i></li>
+				<li class="nav-buttons"><a href="http://portlandmetrolive.com/wp-content/uploads/2015/09/Cash-Home-Buyers-in-Portland.jpg">Home</a></li>
+				<li class="nav-buttons"><a href="http://www.joshuanhook.com/wp-content/uploads/2017/07/explore.jpg">Explore</a></li>
+				<li class="nav-buttons"><a href="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg">Profile</a></li>
+				<li class="nav-buttons"><a href="https://solidwize.com/wp-content/uploads/2012/07/settings-icon.jpg">Settings</a></li>
+			</ul>
+		</div>
+		<div class="row" id="main-content">
+			<div class="col-3" id="left-sidebar">
+				<div class="row" id="profilediv">
+					<div class="col-4 img-side" >
+						<img class="tweetimgs" id="profileimg" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/pit-bull-dog-breed-pictures/pit-bull-dog-breed-picture-1.jpg">
+						
+					</div>
+					<div class="col-8">
+						<h1 class="profiletext">TheKindPitbull</h1>
+						<p class="profiletext">  @niceboy12</p>
+				</div>
+				<div id="tff" class="row">
+					<div class="col-4">
+						<p>Tweets:</p>
+					</div>
+					<div class="col-4">
+						<p>Following:</p>
+
+					</div>
+					<div class="col-4">
+						<p>Followers:</p>
+
+					</div>
+				</div>
+				<div id="tffvalues" class="row">
+					<div class="col-4">
+						<p>37</p>
+					</div>
+					<div class="col-4">
+						<p>1527</p>
+
+					</div>
+					<div class="col-4">
+						<p>1235</p>
+
+					</div>
+				</div>
+				
+			</div>
+				<div id="addiv">
+					<img id="adpic" src="https://www.magazine-advertisements.com/uploads/2/1/8/4/21844100/alpo-dry-dog-food-1.jpg">
+				</div>
+			</div>
+			<div class="col-7" id="center">
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img class="tweetimgs" src="https://www.sciencedaily.com/images/2017/10/171019100944_1_900x600.jpg">
+					</div>
+					<div class="col-10 tweet-side">
+						<h1 class="tweettext">tennisboy - @tennisboy14 - 4h</h1>
+						<p class="tweettext2">Dere is no such thing as a free treat.</p>
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img id="twtimg2" class="tweetimgs" src="https://pbs.twimg.com/profile_images/948761950363664385/Fpr2Oz35_400x400.jpg">
+					</div>
+					<div class="col-10 tweet-side">
+						<h1 class="tweettext">woof✅ - @theoriginalwoof - 5h</h1>
+						<p class="tweettext2">Will da water from big shower kills me?</p>
+					
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img id="twtimg3" class="tweetimgs" src="https://images.theconversation.com/files/191047/original/file-20171019-1086-18i6bqe.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop">
+					</div>
+					<div class="col-10 tweet-side">
+						<h1 class="tweettext">snooze - @sleepy78 - 7h</h1>
+						<p class="tweettext2">If I iz a good boi in da woods and dere is no hooman dere to sez it, iz I still a good boi?</p>
+					
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img id="twtimg4" class="tweetimgs" src="https://media4.s-nbcnews.com/i/newscms/2018_02/2285561/180109-dog-listening-mn-1215_86fd9caebf17bddbf5310597b860cef9.jpg">
+					</div>
+					<div class="col-10 tweet-side">
+						<h1 class="tweettext">giggles - @giggles7 - 10h</h1>
+						<p class="tweettext2">Doggo see squirrel! Doggo see squirrel!</p>
+					
+					</div>
+				</div>
+				<div class="post row">
+					<div class="col-2 img-side">
+						<img id="twtimg5" class="tweetimgs" src="https://cf.ltkcdn.net/dogs/images/std/65407-396x297-Dog_sleep.jpg">
+					</div>
+					<div class="col-10 tweet-side">
+						<h1 class="tweettext">tiredpup - @sleepy127 - 12h</h1>
+						<p class="tweettext2">Wenever hooman friends come over, I am surounded. Y?</p>
+					
+					</div>
+				</div>
+			</div>
+			<div class="col-2" id="right-sidebar">
+				<div id="rsideborder">
+					<div class="row" id="reccomended-users">
+						<p>Reccomended Users:</p>
+					</div>
+					<div class="row recrow" id="recs">
+						<div class="col-4" id="recpic1">
+							<img class="tweetimgs" id="wolfpic" src="https://soundbeat.org/wp-content/uploads/2016/04/wolf-5.jpg">
+						</div>
+						<div class="col-8 righthandles" id="rechandle1">
+							<p>@theoriginaldog</p>
+						</div>
+					</div>
+					<div class="row recrow" id="recs">
+						<div class="col-4" id="recpic1">
+							<img class="tweetimgs" id="goldpic" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/golden-retriever-dogs-and-puppies/thumbs/thumbs_golden-retriever-dogs-puppies-6.jpg">
+						</div>
+						<div class="col-8 righthandles" id="rechandle1">
+							<p id="fb1">@fetchboy1</p>
+						</div>
+					</div>
+					<div class="row recrow" id="recs">
+						<div class="col-4" id="recpic1">
+							<img class="tweetimgs" id="shibapic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Shiba_inu_taiki.jpg/220px-Shiba_inu_taiki.jpg">
+						</div>
+						<div class="col-8 righthandles" id="rechandle">
+							<p id="sss">@shibashibashiba</p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<img id="adpic2" src="http://www.royalrunkennel.com/wp-content/uploads/2018/01/ads.jpg">
+				</div>
+			</div>	
+		</div>
+		<div class="row" id="footer">
+			<p>*Woofer is a contemporary organization recognizing the inherent urge for K9 expression—a community of outspoken pups. We outsource out creative "woofs" (aka "tweets") from r/dogshowerthoughts, a subreddit that shares our passion.</p>
+		</div>
+
+	</div>
+</body>
+</html>
